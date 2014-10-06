@@ -7,9 +7,17 @@ public class EngineSelector {
 
     private static ScriptEngine engine = null;
 
+    /**
+     * Not synchronized, so possibly more than one engine is initialized.
+     * 
+     * @return
+     */
     public static ScriptEngine getEngine() {
+        if (engine != null) {
+            return engine;
+        }
         final ScriptEngineManager engineManager = new ScriptEngineManager();
-        final ScriptEngine engine = engineManager.getEngineByName("nashorn");
+        engine = engineManager.getEngineByName("nashorn");
         return engine;
     }
 
