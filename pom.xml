@@ -15,7 +15,7 @@
 			org.junit,
 			*
 		</module.importedPackages>
-		<module.exportedPackages>!de.mxro.async.internal*,de.mxro.async*
+		<module.exportedPackages>!de.mxro.js.internal*,de.mxro.js*
 		</module.exportedPackages>
 		<module.serviceDefinitions>
 		</module.serviceDefinitions>
@@ -337,9 +337,9 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:git@github.com:mxro/async-api.git</connection>
-		<url>https://github.com/mxro/fn-api</url>
-		<developerConnection>scm:git:git@github.com:mxro/async-api.git
+		<connection>scm:git:git@github.com:mxro/js-api.git</connection>
+		<url>https://github.com/mxro/js-api</url>
+		<developerConnection>scm:git:git@github.com:mxro/js-api.git
 		</developerConnection>
 	</scm>
 
