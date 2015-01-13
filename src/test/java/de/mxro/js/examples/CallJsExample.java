@@ -10,9 +10,9 @@ public class CallJsExample {
 
         System.out.println(sum);
 
-        final Object object = Js.eval("{123: 123};");
+        final Object object = Js.eval("var obj = {}; obj;");
 
-        System.out.println(object);
+        System.out.println(object.getClass());
 
     }
 
