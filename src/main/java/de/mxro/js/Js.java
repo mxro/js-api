@@ -5,6 +5,12 @@ import javax.script.ScriptException;
 
 import de.mxro.js.internal.EngineSelector;
 
+/**
+ * Collection of methods provided by this API.
+ * 
+ * @author <a href="http://www.mxro.de">Max Rohde</a>
+ *
+ */
 public class Js {
 
     /**
