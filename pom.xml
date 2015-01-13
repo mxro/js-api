@@ -21,11 +21,7 @@
 	<!-- Dependent Modules -->
 	<dependencies>
 
-		<dependency>
-			<groupId>de.mxro.fn</groupId>
-			<artifactId>fn-api</artifactId>
-			<version>0.0.6</version>
-		</dependency>
+		
 
 		<dependency>
 			<groupId>junit</groupId>
@@ -87,9 +83,7 @@
 
 
 
-			<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-			<!-- For GWT -->
-			<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+			
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>gwt-maven-plugin</artifactId>
@@ -241,10 +235,6 @@
 							<version>2.4</version>
 						</plugin>
 
-
-
-
-
 					</reportPlugins>
 				</configuration>
 			</plugin>
@@ -283,19 +273,7 @@
 
 		</resources>
 
-		<extensions>
-			<extension>
-				<groupId>org.apache.maven.wagon</groupId>
-				<artifactId>wagon-ssh-external</artifactId>
-				<version>2.6</version>
-			</extension>
-
-			<extension>
-				<groupId>org.apache.maven.wagon</groupId>
-				<artifactId>wagon-ssh</artifactId>
-				<version>2.6</version>
-			</extension>
-		</extensions>
+		
 	</build>
 
 	<distributionManagement>
