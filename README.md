@@ -2,7 +2,7 @@
 
 # JS API
 
-An beautiful way to call JavaScript from Java.
+[JS API](https://github.com/mxro/js-api) offers a beautiful way to call JavaScript from Java.
 
 ## Usage
 
