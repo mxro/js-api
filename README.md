@@ -1,4 +1,4 @@
 js-api
 ======
 
-An interface to work with JavaScript from Java.
+An beautiful way to call JavaScript from Java.
