@@ -18,6 +18,15 @@ public class EngineSelector {
         }
         final ScriptEngineManager engineManager = new ScriptEngineManager();
         engine = engineManager.getEngineByName("nashorn");
+
+        if (engine == null) {
+            engine = engineManager.getEngineByName("rhino");
+        }
+
+        if (engine == null) {
+            engine = engineManager.getEngineByExtension("js");
+        }
+
         return engine;
     }
 
