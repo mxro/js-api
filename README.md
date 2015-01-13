@@ -37,3 +37,8 @@ Add repository if required:
 </repositories>
 ```
 
+## Further Resources
+
+- [JavaDocs](http://modules.appjangle.com/js-api/latest/apidocs/)
+- [Project Reports](http://modules.appjangle.com/js-api/latest/project-reports.html)
+

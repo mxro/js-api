@@ -5,7 +5,6 @@
 	<description>An interface to work with JavaScript from Java.</description>
 	<url>https://github.com/mxro/js-api</url>
 
-
 	<properties>
 		<module.gwtVersion>2.5.1</module.gwtVersion>
 		<module.importedPackages>
