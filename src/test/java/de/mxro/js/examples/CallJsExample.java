@@ -6,7 +6,7 @@ public class CallJsExample {
 
     public static void main(final String[] args) {
 
-        final Object res = Js.eval("return 1 + 1; ");
+        final Double res = Js.eval("1 + 1;");
 
         System.out.println(res);
 

@@ -21,7 +21,7 @@ public class Js {
      * @return
      * @see {@link ScriptEngine#eval(String)}
      */
-    public static Object eval(final String javaScript) {
+    public static <T> T eval(final String javaScript) {
 
         try {
             return EngineSelector.getEngine().eval(javaScript);
