@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mxro/js-api.svg?branch=master)](https://travis-ci.org/mxro/js-api)
+
 # JS API
 
 An beautiful way to call JavaScript from Java.
