@@ -10,7 +10,7 @@ public class CallJsExample {
 
         System.out.println(sum);
 
-        final Object object = Js.eval("{}");
+        final Object object = Js.eval("{123: 123};");
 
         System.out.println(object);
 

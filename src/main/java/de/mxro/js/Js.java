@@ -21,6 +21,7 @@ public class Js {
      * @return
      * @see {@link ScriptEngine#eval(String)}
      */
+    @SuppressWarnings("unchecked")
     public static <T> T eval(final String javaScript) {
 
         try {
