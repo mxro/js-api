@@ -24,7 +24,7 @@ public class Js {
     public static <T> T eval(final String javaScript) {
 
         try {
-            return EngineSelector.getEngine().eval(javaScript);
+            return (T) EngineSelector.getEngine().eval(javaScript);
         } catch (final ScriptException e) {
             throw new RuntimeException(e);
         }

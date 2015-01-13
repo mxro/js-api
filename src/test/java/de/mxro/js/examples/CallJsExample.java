@@ -6,9 +6,13 @@ public class CallJsExample {
 
     public static void main(final String[] args) {
 
-        final Double res = Js.eval("1 + 1;");
+        final Double sum = Js.eval("1 + 1;");
 
-        System.out.println(res);
+        System.out.println(sum);
+
+        final Object object = Js.eval("{}");
+
+        System.out.println(object);
 
     }
 
