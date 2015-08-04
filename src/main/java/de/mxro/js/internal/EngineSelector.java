@@ -18,7 +18,7 @@ public class EngineSelector {
         }
         final ScriptEngineManager engineManager = new ScriptEngineManager();
         engine = engineManager.getEngineByName("nashorn");
-
+        System.out.println(engine);
         if (engine == null) {
             engine = engineManager.getEngineByName("rhino");
         }

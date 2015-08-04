@@ -6,7 +6,7 @@ public class CallJsExample {
 
     public static void main(final String[] args) {
 
-        final Double sum = Js.eval("1 + 1;");
+        final Integer sum = Js.eval("1 + 1;");
 
         System.out.println(sum);
 
