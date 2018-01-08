@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/mxro/js-api.svg?branch=master)](https://travis-ci.org/mxro/js-api)
 
+**Important** This project has moved to [javadelight/delight-js-exec-api](https://github.com/javadelight/delight-js-exec-api)
+
 # JS API
 
 [JS API](https://github.com/mxro/js-api) offers a beautiful way to call JavaScript from Java.
